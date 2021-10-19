@@ -18,6 +18,14 @@ public class Main {
         cachorro2.tamanio = "chico";
         cachorro2.caracteristicas();
         cachorro2.comer();
+
+        // parte del metodo contructor
+        Perro cachorro3 = new Perro( "pit-bul");
+
+        Perro cachorro4 = new Perro("cahuamo","husky","cico",4);
+        cachorro4.caracteristicas();
+
+
   }
 }
 
